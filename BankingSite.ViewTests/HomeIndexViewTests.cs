@@ -22,7 +22,7 @@ namespace BankingSite.ViewTests
 
             var renderedLoanRate = html.GetElementbyId("loanRate").InnerText;
 
-            Assert.That(renderedLoanRate, Is.EqualTo("23,45"));
+            Assert.That(renderedLoanRate, Is.EqualTo("23.45"));
         }
 
         [Test]
